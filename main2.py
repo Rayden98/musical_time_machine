@@ -6,8 +6,8 @@ from spotipy.oauth2 import SpotifyClientCredentials
 import pandas as pd
 
 # ------------------------------------ CONSTANTS ---------------------------------------------------#
-SPOTIFY_CLIENT_ID = "4b7f98cf1f4f45c8b867f3f24bfcf0b3"
-SPOTIFY_SECRET = "4a6d8c32310548e8ac1ffb7c1a3161fc"
+SPOTIFY_CLIENT_ID = ""
+SPOTIFY_SECRET = ""
 REDIRECT_URL = "http://localhost:8888/callback"
 
 DATE_SONG = input("Which year do you want to travel to? Type the date in this format: YYY-MM-DD: ")
